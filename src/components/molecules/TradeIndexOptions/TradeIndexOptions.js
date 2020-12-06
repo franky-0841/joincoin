@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './TradeIndexOptions.scss';
 import classNames from 'classnames/bind';
-import PinIcon from 'react-icons/lib/ti/pin';
+// import PinIcon from 'react-icons/lib/ti/pin';
 
 import { Selector, SortReverser, Option, Button } from 'components';
 

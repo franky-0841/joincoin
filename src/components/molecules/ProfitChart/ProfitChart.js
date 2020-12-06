@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from './ProfitChart.scss';
 import classNames from 'classnames/bind';
 import echarts from 'echarts';
-import { SpinnerBlock } from 'components';
+// import { SpinnerBlock } from 'components';
 import moment from 'moment';
 
 window.moment = moment;

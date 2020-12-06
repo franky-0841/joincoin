@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Header.scss';
 import classNames from 'classnames/bind';
-import { Logo, HeaderNav, Button, UserButton, UserMenu, Hamburger } from 'components';
+import { Logo, HeaderNav, Button, UserButton, UserMenu } from 'components';
 
 const cx = classNames.bind(styles);
 

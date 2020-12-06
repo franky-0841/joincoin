@@ -375,8 +375,8 @@ class TradeChart extends Component {
   }  
 
   render() {
-    const {loading, onSelectChartType, chartType, data, currencyKey,  selectedRate} = this.props;
-    const empty = data.isEmpty();
+    const {loading, onSelectChartType, chartType, currencyKey,  selectedRate} = this.props;
+    // const empty = data.isEmpty();
 
     const current = getCurrency(currencyKey);
 

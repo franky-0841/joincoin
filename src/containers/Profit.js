@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import {bindActionCreators} from 'redux';
-import * as Actions from 'store/modules/';
+// import * as Actions from 'store/modules/';
 import { ProfitChart, ProfitInfo } from 'components';
 import * as tradeActions from 'store/modules/trade';
 import * as userActions from 'store/modules/user';

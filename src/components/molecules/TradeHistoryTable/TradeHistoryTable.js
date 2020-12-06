@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import styles from './TradeHistoryTable.scss';
 import classNames from 'classnames/bind';
 import {limitDigit} from 'lib/utils';
@@ -10,9 +10,9 @@ import { Spinner } from 'components';
 const cx = classNames.bind(styles);
 
 const statusMap = {
-  'processed': '완료',
-  'waiting': '대기',
-  'cancelled': '취소됨'
+  'processed': 'processed',
+  'waiting': 'waiting',
+  'cancelled': 'cancelled'
 }
 
 const Row = ({date, type, rate, amount, personal, status, onCancelOrder, id, showCurrency, currencyPair}) => {

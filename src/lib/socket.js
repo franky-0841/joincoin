@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import LZUTF8 from 'lzutf8';
 
 import { bindActionCreators } from 'redux';

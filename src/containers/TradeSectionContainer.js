@@ -5,7 +5,7 @@ import * as tradeActions from 'store/modules/trade';
 import * as userActions from 'store/modules/user';
 import { TradeSection } from 'components';
 import socket from 'lib/socket';
-import { limitDigit } from 'lib/utils';
+// import { limitDigit } from 'lib/utils';
 
 class TradeSectionContainer extends Component {
 

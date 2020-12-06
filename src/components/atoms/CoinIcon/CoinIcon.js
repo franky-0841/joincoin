@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import styles from './CoinIcon.scss';
 import classNames from 'classnames/bind';

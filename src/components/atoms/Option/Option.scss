@@ -34,7 +34,7 @@
   transition: all .15s;
 
   &:hover {
-    color: material-color('teal', '500');
+    color: material-color('brown', '500');
   }
   &:active, &.active {
     .check-box {
@@ -48,7 +48,7 @@
   }
 
   &.active {
-    color: material-color('teal', '500');
+    color: material-color('brown', '500');
     font-weight: 700;
 
     .check-box {

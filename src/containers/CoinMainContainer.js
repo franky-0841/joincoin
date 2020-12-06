@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import {bindActionCreators} from 'redux';
+// import {bindActionCreators} from 'redux';
 import { CoinMain, SpinnerBlock } from 'components';
 import { coinsInHome } from 'lib/variables'
 

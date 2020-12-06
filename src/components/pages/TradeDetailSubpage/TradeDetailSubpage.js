@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import styles from './TradeDetailSubpage.scss';
-import classNames from 'classnames/bind';
-import { TradeChartContainer, OrderBookContainer, TradeSectionContainer, TradeHistoryContainer } from 'containers';
+// import styles from './TradeDetailSubpage.scss';
+// import classNames from 'classnames/bind';
+import { TradeChartContainer, TradeSectionContainer} from 'containers';
 
-const cx = classNames.bind(styles);
+// const cx = classNames.bind(styles);
 
 class TradeDetailSubpage extends Component { 
   scrollToTop = () => {
@@ -26,8 +26,6 @@ class TradeDetailSubpage extends Component {
       <div>
         <TradeChartContainer currencyKey={currencyKey}/>
         <TradeSectionContainer/>
-        {/* <OrderBookContainer/> */}
-        {/* <TradeHistoryContainer/> */}
       </div>
     );
   }

@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import styles from './BitcoinInfoCard.scss';
 import classNames from 'classnames/bind';
 import { HoverCard } from 'components';
-import PinIcon from 'react-icons/lib/ti/pin';
-import { getCurrency } from 'lib/utils';
-import scuize from 'lib/hoc/scuize';
+// import PinIcon from 'react-icons/lib/ti/pin';
+// import { getCurrency } from 'lib/utils';
+// import scuize from 'lib/hoc/scuize';
 import { withRouter } from 'react-router'
 import { scrollTo } from 'lib/utils';
 
@@ -21,7 +22,7 @@ class BitcoinInfoCard extends Component {
   timeoutId = null;
 
   handleOpenCurrency = () => {
-    const { history, currencyKey } = this.props;
+    const { history } = this.props;
     history.push(`/trade/BTC`);
     scrollTo(0);
   }

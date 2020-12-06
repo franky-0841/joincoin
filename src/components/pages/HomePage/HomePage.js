@@ -1,10 +1,10 @@
 import React from 'react';
-import { PageTemplate, PolyBackground, BgColor, CoinMain, Card } from 'components';
+import { PageTemplate, PolyBackground, BgColor } from 'components';
 import {HeaderContainer, CoinMainContainer, SocketSubscriber} from 'containers';
 import styles from './HomePage.scss';
 import classNames from 'classnames/bind';
 import IntroQuestionContainer from 'containers/IntroQuestionContainer';
-import MoreIcon from 'react-icons/lib/md/more-vert';
+// import MoreIcon from 'react-icons/lib/md/more-vert';
 import { Link } from 'react-router-dom';
 import TrophyIcon from 'react-icons/lib/fa/trophy';
 import GithubIcon from 'react-icons/lib/go/mark-github';
